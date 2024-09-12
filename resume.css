@@ -47,6 +47,8 @@ body {
 
 .contact-section p, .skills-section p, .language-section p {
     margin: 5px 0;
+    word-break: break-all; /* Ensures long text like email breaks correctly */
+    font-size: 0.95em; /* Slightly smaller font for emails */
 }
 
 .main-content {
