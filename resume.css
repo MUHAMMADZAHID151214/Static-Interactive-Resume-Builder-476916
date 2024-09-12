@@ -37,16 +37,22 @@ body {
     margin-bottom: 30px;
   }
   
-  .contact-section, .skills-section, .language-section {
+  .contact-section,
+  .skills-section,
+  .language-section {
     text-align: left;
     margin-bottom: 20px;
   }
   
-  .contact-section h3, .skills-section h3, .language-section h3 {
+  .contact-section h3,
+  .skills-section h3,
+  .language-section h3 {
     margin-bottom: 10px;
   }
   
-  .contact-section p, .skills-section p, .language-section p {
+  .contact-section p,
+  .skills-section p,
+  .language-section p {
     margin: 5px 0;
   }
   
@@ -57,24 +63,29 @@ body {
     border-radius: 0 0 10px 10px;
   }
   
-  .profile-section, .work-experience-section, .education-section {
+  .profile-section,
+  .work-experience-section,
+  .education-section {
     margin-bottom: 30px;
   }
   
-  .profile-section h3, .work-experience-section h3, .education-section h3 {
+  .profile-section h3,
+  .work-experience-section h3,
+  .education-section h3 {
     color: #f39c12;
     margin-bottom: 10px;
     border-bottom: 2px solid #f39c12;
     padding-bottom: 5px;
   }
   
-  .job, .degree {
+  .job,
+  .degree {
     margin-bottom: 15px;
   }
   
   h6 {
     color: #2c3e50;
-    font-size: .95em;
+    font-size: 0.95em;
   }
   
   p {
@@ -110,7 +121,7 @@ body {
   }
   
   button {
-    color:#ffffff;
+    color: #ffffff;
     background-color: #f39c12;
     border-color: #f39c12;
   }
@@ -129,6 +140,35 @@ body {
     .main-content {
       width: 70%;
       border-radius: 0 10px 10px 0;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .resume-container {
+      flex-direction: column;
+    }
+  
+    .sidebar,
+    .main-content {
+      width: 100%;
+    }
+  
+    .sidebar {
+      border-radius: 10px 10px 0 0;
+    }
+  
+    .main-content {
+      border-radius: 0 0 10px 10px;
+    }
+  
+    .profile-picture img {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .sidebar h2,
+    .sidebar p {
+      font-size: 0.9em;
     }
   }
   
