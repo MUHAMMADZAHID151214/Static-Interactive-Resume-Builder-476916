@@ -47,8 +47,8 @@ body {
 
 .contact-section p, .skills-section p, .language-section p {
     margin: 5px 0;
-    word-break: break-all; /* Ensures long text like email breaks correctly */
-    font-size: 0.95em; /* Slightly smaller font for emails */
+    word-break: break-all; 
+    font-size: 0.95em; 
 }
 
 .main-content {
@@ -115,35 +115,34 @@ button {
     border-color: #f39c12;
 }
 
-/* Force Side-by-Side Layout on Small Screens */
 @media (max-width: 767px) {
     .resume-container {
-        flex-direction: row; /* Keeps side-by-side layout on mobile */
-        overflow-x: auto; /* Allow horizontal scrolling if content overflows */
+        flex-direction: row; 
+        overflow-x: auto; 
     }
 
     .sidebar {
-        width: 25%; /* Adjust sidebar width slightly for better mobile fit */
-        padding: 15px; /* Reduce padding for better fit */
+        width: 25%; 
+        padding: 15px;
     }
 
     .profile-picture img {
-        width: 90px; /* Reduce profile picture size */
+        width: 90px; 
         height: 90px;
-        margin-bottom: 10px; /* Adjust margin */
-    }
+        margin-bottom: 10px;
+        }
 
     .subtitle {
-        font-size: 1em; /* Adjust subtitle font size for mobile */
+        font-size: 1em; 
         margin-bottom: 20px;
     }
 
     .contact-section h3, .skills-section h3, .language-section h3 {
-        font-size: 1em; /* Adjust section titles for mobile */
+        font-size: 1em; 
     }
 
     .contact-section p, .skills-section p, .language-section p {
-        font-size: 0.85em; /* Smaller text to fit on mobile */
+        font-size: 0.85em;
     }
 
     h6, p {
