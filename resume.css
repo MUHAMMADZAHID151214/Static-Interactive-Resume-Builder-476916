@@ -8,7 +8,7 @@ body {
 
 .resume-container {
     display: flex;
-    flex-direction: row; /* Forces side-by-side layout */
+    flex-direction: row;
     max-width: 1100px;
     margin: 20px auto;
     background-color: white;
@@ -17,7 +17,7 @@ body {
 }
 
 .sidebar {
-    width: 20%; /* Sidebar takes 30% of width */
+    width: 20%;
     background-color: #f39c12;
     color: white;
     padding: 20px;
@@ -50,7 +50,7 @@ body {
 }
 
 .main-content {
-    width: 80%; /* Main content takes 70% of width */
+    width: 80%;
     padding: 20px;
     background-color: #fff;
 }
@@ -121,20 +121,31 @@ button {
     }
 
     .sidebar {
-        width: 20%; /* Increase sidebar width slightly on mobile */
-    }
-
-    .main-content {
-        width: 80%; /* Decrease main content width slightly on mobile */
+        width: 25%; /* Adjust sidebar width slightly for better mobile fit */
+        padding: 15px; /* Reduce padding for better fit */
     }
 
     .profile-picture img {
-        width: 100px; /* Reduce profile picture size on mobile */
-        height: 100px;
+        width: 90px; /* Reduce profile picture size */
+        height: 90px;
+        margin-bottom: 10px; /* Adjust margin */
+    }
+
+    .subtitle {
+        font-size: 1em; /* Adjust subtitle font size for mobile */
+        margin-bottom: 20px;
+    }
+
+    .contact-section h3, .skills-section h3, .language-section h3 {
+        font-size: 1em; /* Adjust section titles for mobile */
+    }
+
+    .contact-section p, .skills-section p, .language-section p {
+        font-size: 0.85em; /* Smaller text to fit on mobile */
     }
 
     h6, p {
-        font-size: 0.85em; /* Smaller text to fit on mobile */
+        font-size: 0.85em;
     }
 
     button {
