@@ -17,7 +17,7 @@ body {
 }
 
 .sidebar {
-    width: 30%; /* Sidebar takes 30% of width */
+    width: 20%; /* Sidebar takes 30% of width */
     background-color: #f39c12;
     color: white;
     padding: 20px;
@@ -50,7 +50,7 @@ body {
 }
 
 .main-content {
-    width: 70%; /* Main content takes 70% of width */
+    width: 80%; /* Main content takes 70% of width */
     padding: 20px;
     background-color: #fff;
 }
@@ -121,11 +121,11 @@ button {
     }
 
     .sidebar {
-        width: 40%; /* Increase sidebar width slightly on mobile */
+        width: 20%; /* Increase sidebar width slightly on mobile */
     }
 
     .main-content {
-        width: 60%; /* Decrease main content width slightly on mobile */
+        width: 80%; /* Decrease main content width slightly on mobile */
     }
 
     .profile-picture img {
