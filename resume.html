@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Resume</title>
+    <link rel="stylesheet" href="resume.css" />
+    <!-- Add Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  </head>
+  <body>
+    <div class="resume-container">
+      <!-- Sidebar Section -->
+      <div class="sidebar">
+        <div class="profile-picture">
+          <img src="profile_picture.jpeg" alt="Profile Picture" />
+        </div>
+        <h2>Name</h2>
+        <p class="subtitle">Muhammad Zahid</p>
+
+        <div class="contact-section">
+          <h3>Contact</h3>
+          <p>Flat F5/15 Paf Airmen Academy Korangi Creek Karachi</p>
+          <p>mz5532006@gmail.com</p>
+          <p>03051925746</p>
+        </div>
+
+        <div class="skills-section">
+          <h3>Skills</h3>
+          <p>Html</p>
+          <p>Css</p>
+          <p>Typescript</p>
+          <p>Python</p>
+        </div>
+
+        <div class="language-section">
+          <h3>Language</h3>
+          <p>English: 70%</p>
+          <p>Urdu: 100%</p>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="social-media-section">
+          <h3>Social Media</h3>
+          <a href="https://www.linkedin.com/in/muhammadzahid51214/" target="_blank" class="social-link">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+          <a href="https://github.com/MUHAMMADZAHID151214" target="_blank" class="social-link">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+      </div>
+
+     <!-- Main Content Section -->
+<div class="main-content">
+  <div class="profile-section">
+    <h3>Profile</h3>
+    <button onclick="toggleSection('profile-content')">Hide/Show Profile</button>
+    <div id="profile-content">
+      <div class="intro">
+        <h6>
+          Aspiring Cloud & AI Engineer<br /><br />
+          I am currently pursuing a Bachelor's degree in Computer Science at
+          PAF-KIET, where I am honing my technical skills and expanding my
+          knowledge in the field of software development and emerging
+          technologies. Alongside my studies, I am actively involved in the
+          prestigious Governor Sindh Initiative, where I am pursuing
+          certification as a Certified Cloud Applied Generative AI Engineer
+          at Governor House, Karachi. With a passion for innovation and
+          cutting-edge technology, I am driven to explore the transformative
+          potential of cloud computing and generative AI in shaping the
+          future. My academic journey, combined with hands-on experience
+          through this initiative, is preparing me to contribute to the
+          evolving tech landscape with a focus on AI-driven solutions.
+        </h6>
+      </div>
+    </div>
+  </div>
+
+  <div class="work-experience-section">
+    <h3>Work Experience</h3>
+    <button onclick="toggleSection('work-content')">Hide/Show Work Experience</button>
+    <div id="work-content">
+      <div class="job">
+        <h6>Internship at Code Alpha 2024</h6>
+      </div>
+    </div>
+  </div>
+
+  <div class="education-section">
+    <h3>Education</h3>
+    <button onclick="toggleSection('education-content')">Hide/Show Education</button>
+    <div id="education-content">
+      <div class="degree">
+        <h6>2021-2025: Bachelor in Computer Science</h6>
+        <h6>2018-2020: Fsc in Pre-Engineering</h6>
+        <h6>2016-2018: Matric in Computer Science</h6>
+      </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="resume.js"></script>
+  </body>
+</html>
